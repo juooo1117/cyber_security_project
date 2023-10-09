@@ -1,10 +1,7 @@
 # Cyber Security Project (Log analysis)
 
  1. 주제: 로그분석을 통한 네트워크 웹 공격 분류
- 2. 데이터: A_Track_trainset.csv
-
-    
-          'label_action' category → 총 9개
+ 2. 데이터: A_Track_trainset.csv ('label_action' category → 총 9개)
 
     
     |Log_Number|payload|label_action|
