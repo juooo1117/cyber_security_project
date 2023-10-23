@@ -40,7 +40,7 @@
 모델에 넣기 위해서 Data pre-processing은 아래의 3단계의 순서로 진행하였다.
 
 <p align="center">
-  <img src="https://github.com/juooo1117/Graduation_FaceDetection/assets/95035134/926d862b-696c-4616-b8bc-a3a21ed09d91">
+  <img src="https://github.com/juooo1117/cyber_security_project/assets/95035134/f9191047-e711-465b-873e-8ac5d7bdedb9">
 </p>
 
 
@@ -70,6 +70,6 @@
 
 
 ## 📜 Result & Discussion
-   - 주어진 train set(45000개)을 2배 늘려서, test data(0.7) & validation data(0.3) 비율로 나누어 학습했을 때 validation data로 나온 model accuracy는 0.93이었다.
-   - 이 model에 실제 test data(대회문제)를 넣었을 때의 accuracy(f1 score)는 0.89338 이다.
+   - 주어진 train set(45000개)을 2배 늘려서(총 90000개), test data(0.7) & validation data(0.3) 비율로 나누어 학습했을 때 **validation data로 나온 model accuracy는 0.93**이었다.
+   - 이 model에 실제 test data(대회문제)를 넣었을 때의 **accuracy(f1 score)는 0.89338** 이다.
 
