@@ -43,7 +43,6 @@
   <img src="https://github.com/juooo1117/cyber_security_project/assets/95035134/f9191047-e711-465b-873e-8ac5d7bdedb9">
 </p>
 
-
 ###  1. BPE Tokenizer
    - google sentencepiece 패키지에서 model_type=bpe로 구현하였고, sentencepiece는 단어 분리 토큰화를 수행하므로 언어에 종속되지 않기 때문에 payload data 에도 적절하다. 
    - Payload데이터를 각 행마다 토큰화한 새로운 컬럼(payload_token)에 저장해 공격유형을 분류할 수 있는 Feature를 추출
