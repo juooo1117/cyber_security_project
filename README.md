@@ -68,7 +68,7 @@
 
 **[참고] Cross-tab**
 <p align="center">
-  <img src="https://github.com/juooo1117/cyber_security_project/assets/95035134/dcd7f2f4-1744-4db5-9240-b61b91256629"  width="500" height="300>
+  <img src="https://github.com/juooo1117/cyber_security_project/assets/95035134/dcd7f2f4-1744-4db5-9240-b61b91256629" width="500" height="300">
 </p>
 
 
