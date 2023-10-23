@@ -66,6 +66,11 @@
    - DecisionTreeClassifier는 정확도가 낮아서 분류모델로 사용하지 않았고, boosting은 100번만 반복(n_estimators=100)하도록 해서 손실함수의 가중치를 100번만 조정하였다. boosting값이 클수록 모델의 정확도는 증가하지만 학습시간, overfitting의 가능성 또한 증가하므로 100 이상으로 늘리지 않았다.
    - 학습 후에는 crosstab으로 'label_action' category별 'pred'&'real'값을 교차 확인해서 피팅시킨 모델로 예측한 값이 얼마나 맞았는지를 확인해 보았다. (diagonal value: 맞춘 대상을 의미)
 
+**[참고] Cross-tab**
+<p align="center">
+  <img src="https://github.com/juooo1117/cyber_security_project/assets/95035134/dcd7f2f4-1744-4db5-9240-b61b91256629">
+</p>
+
 
 
 ## 📜 Result & Discussion
