@@ -64,9 +64,9 @@
 ### RandomforestClassfier
    - 각 행별 'payload_token' 값들의 label_action 분류를 위해서 랜덤포레스트(RandomForestClassifier)을 분류모델로 사용하였다.
    - DecisionTreeClassifier는 정확도가 낮아서 분류모델로 사용하지 않았고, boosting은 100번만 반복(n_estimators=100)하도록 해서 손실함수의 가중치를 100번만 조정하였다. boosting값이 클수록 모델의 정확도는 증가하지만 학습시간, overfitting의 가능성 또한 증가하므로 100 이상으로 늘리지 않았다.
-   - 학습 후에는 crosstab으로 'label_action' category별 'pred'&'real'값을 교차 확인해서 피팅시킨 모델로 예측한 값이 얼마나 맞았는지를 확인해 보았다. (diagonal value: 맞춘 대상을 의미)
+   - 학습 후에는 cosstab(Confusion Matrix)으로 'label_action' category별 'pred'&'real'값을 교차 확인해서 피팅시킨 모델로 예측한 값이 얼마나 맞았는지를 확인해 보았다. (diagonal value: 맞춘 대상을 의미)
 
-**[참고] Cross-tab**
+**[참고] Confusion Matrix**
 <p align="center">
   <img src="https://github.com/juooo1117/cyber_security_project/assets/95035134/dcd7f2f4-1744-4db5-9240-b61b91256629" width="700" height="300">
 </p>
