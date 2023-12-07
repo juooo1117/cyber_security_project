@@ -7,7 +7,7 @@
  3. 팀원: 박주현, 이신철, 김이정, 최형규
  4. **최종결과: 0.89338 (22등 / 71팀)**
  5. 데이터: A_Track_trainset.csv ('label_action' category → 총 9개)
-
+ 
     
     |Log_Number|payload|label_action|
     |------|---|---|
